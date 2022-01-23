@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body>
+  {%block page_content%}
+  <div class="page-header">
+    <h1>Fibonacci</h1>
+    <div class="menu">
+        <a href="{{ url_for('index') }}">Home</a>
+      <a href="{{ url_for('fib_calc') }}">Fibonacci calculator</a>
+    </div>
+  </div>
+  <div>
+    <h3>Architektura</h3>
+    <img src='/static/architecture.png'>
+    <p>Aplikacja jest oparta o język programowania Python oraz framework do tworzenia stron internetowych Flask.
+      Do przechowywania historii obliczeń wykorzystywany jest Redis.
+      Aplikacja jest oparta o Nginx i uWSGI.
+      NGINX to serwer WWW i reverse proxy który przekazuje żądania do uWSGI.
+uWSGI to serwer aplikacji, który może komunikować się z serwerem WWW w celu odbierania żądań i przesyłania ich do Flask za pośrednictwem protokołu WSGI.
+Plik "app.ini" w folderze "flask" to plik konfiguracyjny uwsgi. Plik "app.py" - kod programu. Plik "default.conf" w folderze "nginx" to plik konfiguracyjny nginx.
+<p>Do zbudowania wykorzystujemy polecenie - "docker compose build"</p>
+<p>Do uruchomienia wykorzystywane jest polecenie - "docker compose up"</p>
+    </p>
+  </div>
+  {%endblock%}
+</body>
+</html>

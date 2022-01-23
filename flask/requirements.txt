@@ -1,0 +1,9 @@
+Flask
+Flask-Bootstrap
+Flask-WTF
+gunicorn
+Flask-SQLAlchemy
+psycopg2-binary
+uwsgi
+redis
+

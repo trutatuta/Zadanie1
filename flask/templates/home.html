@@ -7,10 +7,14 @@
 </head>
 <body>
   {%block page_content%}
+    <div>
+      Tytul: Realizacja zadania nr1 w ramach laboratorium PFSwCO <br>
+      Hrybinchyk Bohdan
+    </div>
     <div class="page-header">
       <div class="menu">
           <a href="{{ url_for('fib_calc') }}">Fibonacci calculator</a>
-          <a href="">Documentation</a>
+          <a href="{{ url_for('doc') }}">Documentation</a>
       </div>
     </div>
   {%endblock%}
