@@ -23,3 +23,23 @@ Do uruchomienia wykorzystywane jest polecenie
 ```
 docker compose up
 ```
+
+Działające kontenery:
+
+![Screenshot_49](https://user-images.githubusercontent.com/61692272/150697077-4b129144-9ff2-4c23-9ff3-5c11198c4b97.png)
+
+Działająca usługa:
+
+Strona domowa:
+
+![Screenshot_50](https://user-images.githubusercontent.com/61692272/150697091-7a4de50b-e568-40b4-bd22-2551f61fe2e1.png)
+
+Strona kalkulatora:
+
+![Screenshot_51](https://user-images.githubusercontent.com/61692272/150697098-22a49812-2a58-478a-b159-28b09e9b01b8.png)
+
+Strona dokumentacji:
+
+![Screenshot_52](https://user-images.githubusercontent.com/61692272/150697104-3087c79e-9b84-4ea4-8d3f-c202746a80c8.png)
+
+
